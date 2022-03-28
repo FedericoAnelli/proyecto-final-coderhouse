@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 4fr 1fr;
+
+
+
+    height: 100vh;
+    width: 100vw;
+
+    grid-template-areas: 
+    
+    "header header header"
+    "main main side"
+    "footer footer footer"
+
+    ;
+
+
+    background-image: url('images/CharlyFondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.containerVideos
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 4fr 1fr;
+
+
+
+    height: 100vh;
+    width: 100vw;
+
+    grid-template-areas: 
+    
+    "header header header"
+    "main main main"
+    "footer footer footer"
+
+    ;
+
+
+    background-image: url('images/CharlyFondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.headerGrid
+{
+    background: linear-gradient(180deg, #000000 52.6%, rgba(0, 0, 0, 0) 100%);
+    grid-area: header;
+    justify-content: end;
+
+}
+
+
+
+
+
+.bodyGrid
+{
+
+    grid-area: main;
+
+}
+
+.footerGrid
+{
+
+    grid-area: footer;
+
+
+}
+
+
+.topMenu
+{
+ display: flex;
+ justify-content: flex-end;
+
+}
+
+.bottomMenu
+{
+ display: flex;
+ margin-bottom: 0;
+ padding-top: 10%;
+
+}
+
+.contenedorVideos
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3fr 2fr;
+
+    height: 100%;
+    width: 100%;
+
+    
+    
+
+    grid-template-areas: 
+    
+    "mainVid mainVid mainVid"
+    "miniature1 miniature2 miniature3"
+
+    ;
+
+    grid-row-gap: 2%;
+    grid-column-gap: 5px;
+
+}
+
+.contenedorPlaylists
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3fr 2fr;
+
+    height: 100%;
+    width: 100%;
+
+    
+    
+
+    grid-template-areas: 
+    
+    "mainVid mainVid mainVid"
+    "miniature1 miniature2 miniature3"
+
+    ;
+
+    grid-row-gap: 2%;
+    grid-column-gap: 5px;
+
+}
+
+.bodyGridVideo
+{
+
+    grid-area: main;
+    align-content: center;
+    height: 100%;
+    width: 90%;
+    padding-left: 5%;
+    padding-top: 5px;
+
+    
+
+}
+
+.selectedVideo
+{
+    grid-area: mainVid;
+    height: 100%;
+
+}
+
+.miniature1
+{
+    grid-area: miniature1;
+
+}
+
+.miniature2
+{
+    grid-area: miniature2;
+
+}
+
+.miniature3
+{
+
+    grid-area: miniature3;
+
+}
+
+
+
+.mainVideo
+{
+    height: 100%;
+    width: 100%;
+
+
+}
+
+
+
+a
+{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: gray;
+
+  }
+
+
+
+
+
+
+li
+{
+    display: inline;
+    margin-left: auto;
+    margin-right: 0;
+    
+}
+
+
+.textosHeader
+{
+    font-size: x-large;
+    overflow: hidden;
+}
+
+.textoSelectedHeader
+{
+    font-size: x-large;
+    padding: 1px;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+
+
+
+.padreFlex
+{
+    position: absolute;
+    display: flex;
+    background: rgba(0, 0, 0, 0.87);
+    left: 5%;
+    right: 5%;
+    padding: 2%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 12px;
+    margin-bottom: 10%;
+
+    
+}
+
+.padreFlexTexto
+{
+    position: absolute;
+    display: flex;
+    background: rgba(0, 0, 0, 0.87);
+    left: 5%;
+    right: 5%;
+    padding: 2%;
+    justify-content: space-around;
+    flex-direction: column;
+    overflow: scroll;
+    border-radius: 12px;
+
+    
+}
+
+.playerStyle
+{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    border-radius: 12px;
+    border: 0;
+    
+}
+
+
+
+
+
+
+
+
+.formularioContacto
+{
+    position: absolute;
+    display: inline;
+    background: rgba(0, 0, 0, 0.87);
+    left: 5%;
+    right: 5%;
+    top: 20%;
+    padding: 2%;
+    bottom: 20%;
+
+}
+
+.lineasContacto
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+body{
+
+    
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+
+    /*
+    background-image: url('images/CharlyFondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
+    max-height: 1632px;
+    
+
+    display: block;*/
+
+}
+
+
+/*
+a
+{
+
+position: absolute;
+
+
+width: 202px;
+height: 57px;
+left: 808px;
+top: 0px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+*/
+
+
+
+
+
+@media screen and (max-width:768px){
+
+    .container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 4fr 1fr;
+
+
+
+    height: 100vh;
+    width: 100vw;
+
+    grid-template-areas: 
+    
+    "header header header"
+    "main main side"
+    "footer footer footer"
+
+    ;
+
+
+    background-color: black;
+
+
+}
+
+    .contenedorVideos
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    height: 100%;
+    width: 100%;
+
+    
+    
+
+    grid-template-areas: 
+    
+    "mainVid"
+    "miniature1"
+    "miniature2"
+    "miniature3"
+
+    ;
+
+
+    grid-column-gap: 5px;
+
+}
+
+.contenedorPlaylists
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    height: 700px;
+    width: 100%;
+
+    
+    
+
+    grid-template-areas: 
+    
+    "mainVid"
+    "miniature1"
+    "miniature2"
+    "miniature3"
+
+    ;
+
+
+    grid-column-gap: 5px;
+
+
+}
+    
+}
