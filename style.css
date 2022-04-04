@@ -27,7 +27,7 @@
 
 .customRowHeight75{
     height: 75vh;
-
+    
 }
 
 .animationNavBar
@@ -310,7 +310,15 @@
 
 }
 
+.carouselVideo
+{
+    
+    height: 90%;
+    width: 100%;
+    border-radius: 10px;
 
+
+}
 
 .mainVideo
 {
@@ -374,7 +382,7 @@ li
     padding: 2%;
     justify-content: space-around;
     flex-wrap: wrap;
-    border-radius: 12px;
+    border-radius: 10px;
     margin-bottom: 10%;
 
     
