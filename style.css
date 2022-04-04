@@ -1,11 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0 !important; 
+    padding: 0 !important;
+    border: 0 !important;
+    
 }
 
-.container
+.size100
+{
+    height: 100% !important;
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
+
+}
+
+.heightVideos100
+{
+    height: 100%;
+}
+
+.borderRadius10
+{
+    border-radius: 10px !important;
+}
+
+.customRowHeight75{
+    height: 75vh;
+
+}
+
+.animationNavBar
+{
+    animation-name: animacionHeader;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+}
+
+.animationVideoCharly
+{
+    animation-name: animacionMainVideo;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+}
+
+.animationTwitterFeed
+{
+    animation-name: animacionHeader;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+}
+.stylingNavBarItems
+{
+    margin-right: 15px !important;
+    font-size: 24px;
+
+}
+
+.noBottomMargin{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    justify-content: flex-end;
+}
+
+.height15navBar{
+    height: 15%;
+}
+
+.bgGradientFooter{
+    background: linear-gradient(0deg, #000000 52.6%, rgba(0, 0, 0, 0) 100%) !important;
+    height: 10%;
+}
+
+.bgGradientHeader{
+    background: linear-gradient(180deg, #000000 52.6%, rgba(0, 0, 0, 0) 100%) !important;
+}
+
+.bgCharly
+{
+    background-image: url('images/CharlyFondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+.containerCG
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
@@ -79,7 +165,7 @@
     }
 
     100%{
-        height: 100%;
+        height: 15%;
     }
 
 }
@@ -230,7 +316,7 @@
 {
     height: 100%;
     width: 100%;
-
+    border-radius: 10px;
 
 }
 
@@ -403,7 +489,7 @@ color: #FFFFFF;
 
 @media screen and (max-width:768px){
 
-    .container
+    .containerCG
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
