@@ -9,64 +9,130 @@
     <title>Say No More - Playlists</title>
 </head>
 <body>
-    <div class="containerVideos">
+    <div class="container-fluid bgCharly">   
+
+
+        <!-- Navigation starts -->
     
-        <div class="headerGrid">
-            <div class="topMenu">
-            <li class="textosHeader"><a href="index.html">Home</a></li>
-            <li class="textosHeader"><a href="biografia.html">Biografía</a></li>
-            <li class="textosHeader"><a href="videos.html">Videos</a></li>
-            <li class="textosHeader"><a href="podcasts.html">Podcasts</a></li>
-            <li class="textosHeader"><a href="playlists.html">Playlists</a></li>
-            <li class="textosHeader"><a href="contacto.html">Contacto</a></li>
-             </div>
-        </div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top bgGradientHeader height15navBar animationNavBar">
+                <div class="container-fluid">
+     
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item stylingNavBarItems">
+                        <a class="nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item stylingNavBarItems">
+                        <a class="nav-link" href="biografia.html">Biografía</a>
+                      </li>
+                      <li class="nav-item stylingNavBarItems">
+                        <a class="nav-link" href="videos.html">Videos</a>
+                      </li>
+                      <li class="nav-item stylingNavBarItems">
+                        <a class="nav-link" href="podcasts.html">Podcasts</a>
+                      </li>
+                      <li class="nav-item stylingNavBarItems">
+                        <a class="nav-link active" aria-current="page" href="#">Playlists</a>
+                      </li>
+                      <li class="nav-item stylingNavBarItems">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+    
+        <!-- Navigation ends -->     
 
-
-        <div class="bodyGridVideo">
-
-           <div class="contenedorPlaylists">
-            
-                <div class="selectedVideo">
-           
-                    <iframe class="mainVideo" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWTHPnakEfdrP?utm_source=generator" ></iframe>
+    
+    
+             <!-- Body starts --> 
+        <div class="container-fluid">
+    
+            <div class="row align-items-start">
+                <div class="col">
+         
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-interval="false" >
+                        
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+        
+        
+                        <div class="carousel-inner customRowHeight75 ">
+                          <div class="carousel-item active heightVideos100">
+                        
+                            <iframe class="mainVideo" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWTHPnakEfdrP?utm_source=generator" ></iframe>
                 
+                        
+                        </div>
+                          <div class="carousel-item heightVideos100">
+                           
+                            <iframe class="mainVideo" src="https://open.spotify.com/embed/playlist/7wPJqVLg5qrnAaUu9FwJ1I?utm_source=generator" ></iframe>
+            
+                        
+                        </div>
+                          <div class="carousel-item heightVideos100">
+    
+                            <iframe class="mainVideo" src="https://open.spotify.com/embed/playlist/41URB7JG9epR7Ei7MZF2TS?utm_source=generator" ></iframe>
+              
+    
+                        </div>
+                          <div class="carousel-item heightVideos100">
+     
+                            <iframe class="mainVideo" src="https://open.spotify.com/embed/playlist/2EMdR9mi0DNA6OZ36YkWpE?utm_source=generator" ></iframe>
+              
+                        </div>
+        
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+        
+        
+        
+        
+        
                 </div>
-
-
-                <div class="miniature1">
-
-                    <iframe class="mainVideo" src="https://open.spotify.com/embed/playlist/7wPJqVLg5qrnAaUu9FwJ1I?utm_source=generator" ></iframe>
-                </div>
-
-
-                <div class="miniature2">
-
-                    <iframe class="mainVideo" src="https://open.spotify.com/embed/playlist/41URB7JG9epR7Ei7MZF2TS?utm_source=generator" ></iframe>
-                </div>
-
-
-                <div class="miniature3">
-
-                    <iframe class="mainVideo" src="https://open.spotify.com/embed/playlist/2EMdR9mi0DNA6OZ36YkWpE?utm_source=generator" ></iframe>
-                </div>
-
+        
+        
             </div>
-
-
-
-
-        </div>
-
-
-        <div class="footerGrid">
-            <div class="bottomMenu">
-                <p>Creado por la comisión 28135 - Estudiantes de <a href="https://www.coderhouse.com"> Coderhouse</a></p>
+            <div class="row align-items-start">
+        
             </div>
+            </div>
+            <!-- Body ends --> 
+    
 
+
+
+
+
+
+    <!-- Footer starts --> 
+
+    <nav class="navbar fixed-bottom navbar-dark bg-dark bgGradientFooter">
+        <div class="container-fluid">
+            <p class="noBottomMargin">Creado por la comisión 28135 - Estudiantes de <a href="https://www.coderhouse.com"> Coderhouse</a></p>
         </div>
+    </nav>
+<!-- Footer ends -->     
 
-    </div>
+
+</div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
