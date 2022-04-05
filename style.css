@@ -30,6 +30,11 @@
     
 }
 
+.customRowHeight10{
+    height: 10vh;
+    
+}
+
 .animationNavBar
 {
     animation-name: animacionHeader;
