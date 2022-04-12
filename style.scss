@@ -29,13 +29,6 @@ $gradient_footer: linear-gradient(0deg, #000000 52.6%, rgba(0, 0, 0, 0) 100%);
 }
 
 
-.customNavBar{
-
-    height: 10vh;
-    padding-top: 5000px;
-
-}
-
 .customRowHeight{
 
     &75{
@@ -156,6 +149,7 @@ $gradient_footer: linear-gradient(0deg, #000000 52.6%, rgba(0, 0, 0, 0) 100%);
 
 }
 
+
 .noBottomMargin{
     margin-bottom: 0;
     padding-bottom: 0;
@@ -164,7 +158,6 @@ $gradient_footer: linear-gradient(0deg, #000000 52.6%, rgba(0, 0, 0, 0) 100%);
 
 .height15navBar{
     height: 15%;
-
 }
 
 .bgGradient{
@@ -205,30 +198,6 @@ $gradient_footer: linear-gradient(0deg, #000000 52.6%, rgba(0, 0, 0, 0) 100%);
 
 }
 
-@keyframes animacionTwitterFeed {
-
-    0%{
-        padding-right: -500px;
-    }
-
-    100%{
-        padding-right: 1%;
-    }
-
-}
-
-@keyframes aparicionTexto {
-
-    0%{
-        opacity: 0;
-    }
-
-    100%{
-        opacity: 100;
-    }
-
-}
-
 @keyframes animacionFooter {
 
     0%{
@@ -253,6 +222,17 @@ $gradient_footer: linear-gradient(0deg, #000000 52.6%, rgba(0, 0, 0, 0) 100%);
 
 }
 
+@keyframes aparicionTexto {
+
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100;
+    }
+
+}
 
 
 .carouselVideo
@@ -295,7 +275,7 @@ a:hover {
     left: 5%;
     right: 5%;
     padding: 2%;
-    justify-content: space-around;
+    justify-content: baseline;
     flex-wrap: wrap;
     border-radius: 10px;
     margin-bottom: 10%;
@@ -312,7 +292,7 @@ a:hover {
     left: 5%;
     right: 5%;
     padding: 2%;
-    justify-content: center;
+    justify-content: baseline;
     flex-direction: column;
     overflow-x: hidden !important;
     overflow-y: scroll !important;

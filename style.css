@@ -19,11 +19,6 @@
   border-radius: 10px !important;
 }
 
-.customNavBar {
-  height: 10vh;
-  padding-top: 5000px;
-}
-
 .customRowHeight75 {
   height: 75vh;
 }
@@ -227,42 +222,6 @@
   }
 }
 
-@-webkit-keyframes animacionTwitterFeed {
-  0% {
-    padding-right: -500px;
-  }
-  100% {
-    padding-right: 1%;
-  }
-}
-
-@keyframes animacionTwitterFeed {
-  0% {
-    padding-right: -500px;
-  }
-  100% {
-    padding-right: 1%;
-  }
-}
-
-@-webkit-keyframes aparicionTexto {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 100;
-  }
-}
-
-@keyframes aparicionTexto {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 100;
-  }
-}
-
 @-webkit-keyframes animacionFooter {
   0% {
     height: 0%;
@@ -299,6 +258,24 @@
   }
 }
 
+@-webkit-keyframes aparicionTexto {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+@keyframes aparicionTexto {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
 .carouselVideo {
   height: 90%;
   width: 100%;
@@ -330,8 +307,9 @@ a:hover {
   left: 5%;
   right: 5%;
   padding: 2%;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   border-radius: 10px;
@@ -348,9 +326,9 @@ a:hover {
   left: 5%;
   right: 5%;
   padding: 2%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
