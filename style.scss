@@ -29,6 +29,13 @@ $gradient_footer: linear-gradient(0deg, #000000 52.6%, rgba(0, 0, 0, 0) 100%);
 }
 
 
+.customNavBar{
+
+    height: 10vh;
+    padding-top: 5000px;
+
+}
+
 .customRowHeight{
 
     &75{
@@ -77,8 +84,75 @@ $gradient_footer: linear-gradient(0deg, #000000 52.6%, rgba(0, 0, 0, 0) 100%);
 
 .stylingNavBarItems
 {
+
     margin-right: 15px !important;
     font-size: 24px;
+
+
+    &--Home{
+        margin-right: 15px !important;
+        font-size: 24px;
+        animation-name: aparicionTexto;
+        animation-duration: 4s;
+        animation-timing-function: ease;
+        animation-iteration-count: 1;
+
+
+    }
+    &--Biografia{
+        margin-right: 15px !important;
+        font-size: 24px;
+        animation-name: aparicionTexto;
+        animation-duration: 5s;
+        animation-timing-function: ease;
+        animation-iteration-count: 1;
+        
+    }
+    &--Fotos{
+        margin-right: 15px !important;
+        font-size: 24px;
+        animation-name: aparicionTexto;
+        animation-duration: 6s;
+        animation-timing-function: ease;
+        animation-iteration-count: 1;
+        
+    }
+    &--Videos{
+        margin-right: 15px !important;
+        font-size: 24px;
+        animation-name: aparicionTexto;
+        animation-duration: 7s;
+        animation-timing-function: ease;
+        animation-iteration-count: 1;
+        
+    }
+    &--Podcast{
+        margin-right: 15px !important;
+        font-size: 24px;
+        animation-name: aparicionTexto;
+        animation-duration: 8s;
+        animation-timing-function: ease;
+        animation-iteration-count: 1;
+        
+    }
+    &--Playlist{
+        margin-right: 15px !important;
+        font-size: 24px;
+        animation-name: aparicionTexto;
+        animation-duration: 9s;
+        animation-timing-function: ease;
+        animation-iteration-count: 1;
+        
+    }
+    &--Contacto{
+        margin-right: 15px !important;
+        font-size: 24px;
+        animation-name: aparicionTexto;
+        animation-duration: 10s;
+        animation-timing-function: ease;
+        animation-iteration-count: 1;
+        
+    }
 
 }
 
@@ -90,6 +164,7 @@ $gradient_footer: linear-gradient(0deg, #000000 52.6%, rgba(0, 0, 0, 0) 100%);
 
 .height15navBar{
     height: 15%;
+
 }
 
 .bgGradient{
@@ -126,6 +201,30 @@ $gradient_footer: linear-gradient(0deg, #000000 52.6%, rgba(0, 0, 0, 0) 100%);
 
     100%{
         height: 15%;
+    }
+
+}
+
+@keyframes animacionTwitterFeed {
+
+    0%{
+        padding-right: -500px;
+    }
+
+    100%{
+        padding-right: 1%;
+    }
+
+}
+
+@keyframes aparicionTexto {
+
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100;
     }
 
 }
