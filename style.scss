@@ -4,11 +4,23 @@ $gradient_header: linear-gradient(180deg, #000000 52.6%, rgba(0, 0, 0, 0) 100%);
 $gradient_footer: linear-gradient(0deg, #000000 52.6%, rgba(0, 0, 0, 0) 100%);
 
 *{
-    margin: 0 !important; 
+
     padding: 0 !important;
     border: 0 !important;
     
 }
+
+
+.centerContainerFluid{
+
+    height: 75vh !important;
+    width: 75vh !important;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .size100
 {
@@ -22,6 +34,7 @@ $gradient_footer: linear-gradient(0deg, #000000 52.6%, rgba(0, 0, 0, 0) 100%);
 {
     height: 100%;
 }
+
 
 .borderRadius10
 {
@@ -247,8 +260,8 @@ $gradient_footer: linear-gradient(0deg, #000000 52.6%, rgba(0, 0, 0, 0) 100%);
 
 .mainVideo
 {
-    height: 100%;
-    width: 100%;
+    height: 50vh;
+    width: 75vw;
     border-radius: 10px;
 
 }
