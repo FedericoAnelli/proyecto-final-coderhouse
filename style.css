@@ -295,7 +295,13 @@
   border-radius: 10px;
 }
 
-.mainVideo {
+.video--Home {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.video--SeccionVideos {
   height: 50vh;
   width: 75vw;
   border-radius: 10px;
