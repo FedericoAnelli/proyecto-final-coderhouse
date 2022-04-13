@@ -20,6 +20,15 @@
         grid-column: 2 span;
         border-radius: 10px;
 
+        @media (max-width: 991px) {
+                    height: map-get($fullSize, width);
+        width: map-get($fullSize, width);
+        object-fit: cover;
+        grid-row:  1 span;
+        grid-column: 1 span;
+        border-radius: 10px;
+        }
+
     }
     &--SeccionVideos
     {

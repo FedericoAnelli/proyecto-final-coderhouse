@@ -304,6 +304,18 @@
   border-radius: 10px;
 }
 
+@media (max-width: 991px) {
+  .video--Home {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    grid-row: 1 span;
+    grid-column: 1 span;
+    border-radius: 10px;
+  }
+}
+
 .video--SeccionVideos {
   height: 50vh;
   width: 75vw;
