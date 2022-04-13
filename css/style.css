@@ -293,6 +293,12 @@
   border-radius: 10px;
 }
 
+@media (max-width: 991px) {
+  .video--Home {
+    width: 100 vw;
+  }
+}
+
 .video--SeccionVideos {
   height: 50vh;
   width: 75vw;
