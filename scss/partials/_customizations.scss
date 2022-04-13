@@ -1,0 +1,54 @@
+.centerContainerFluid{
+
+    height: 75vh !important;
+    width: 75vh !important;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.size100
+{
+    height: 100% !important;
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
+
+}
+
+.heightVideos100
+{
+    height: 100%;
+}
+
+
+.borderRadius10
+{
+    border-radius: 10px !important;
+}
+
+
+.customRowHeight{
+
+    &75{
+        height: 75vh;
+    }
+    &10{
+        height: 10vh;
+    }
+    &5{
+        height: 5vh;
+    }
+
+}
+
+.noBottomMargin{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    justify-content: flex-end;
+}
+
+.height15navBar{
+    height: 15%;
+}

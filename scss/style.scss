@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import "./partials/variables";
+@import "./partials/animations";
+@import "./partials/header";
+@import "./partials/customizations";
+@import "./partials/videos";
+@import "./partials/flexBiografia";
+@import "./partials/backgrounds";
+@import "./partials/fotosMasonry";
+
+*{
+
+    padding: 0 !important;
+    border: 0 !important;
+    
+}
+
+
+.playerStyle
+{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    border-radius: 10px;
+
+    
+}
+
+
+
+body{
+
+    
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+
+
+}
+
+
+
+
+
+
+@import "./partials/mediaQueries";

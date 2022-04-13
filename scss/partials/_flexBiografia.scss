@@ -1,0 +1,33 @@
+.padreFlex
+{
+    position: absolute;
+    display: flex;
+    background: rgba(0, 0, 0, 0.87);
+    left: 5%;
+    right: 5%;
+    padding: 2%;
+    justify-content: baseline;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-bottom: 10%;
+
+    
+}
+
+.padreFlexTexto
+{
+    position: absolute;
+    height: 75vh;
+    display: flex;
+    background: rgba(0, 0, 0, 0.87);
+    left: 5%;
+    right: 5%;
+    padding: 2%;
+    justify-content: baseline;
+    flex-direction: column;
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
+    border-radius: 10px;
+
+    
+}

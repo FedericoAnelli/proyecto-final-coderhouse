@@ -1,0 +1,97 @@
+
+.animation{
+
+        &NavBar
+        {
+            animation-name: animacionHeader;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        } 
+        &Footer
+        {
+            animation-name: animacionFooter;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        }
+        &VideoCharly
+        {
+             animation-name: animacionMainVideo;
+             animation-duration: 4s;
+             animation-timing-function: ease;
+             animation-iteration-count: 1;
+        }
+        &TwitterFeed
+        {
+            animation-name: animacionTwitterFeed;
+            animation-duration: 4s;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+        } 
+
+
+}
+
+
+
+@keyframes animacionHeader {
+
+    0%{
+        height: 0%;
+    }
+
+    100%{
+        height: 15%;
+    }
+
+}
+
+@keyframes animacionFooter {
+
+    0%{
+        height: 0%;
+    }
+
+    100%{
+        height: 10%;
+    }
+
+}
+
+@keyframes animacionMainVideo {
+
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100%;
+    }
+
+}
+
+@keyframes animacionTwitterFeed {
+
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100%;
+    }
+
+}
+
+
+@keyframes aparicionTexto {
+
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100;
+    }
+
+}

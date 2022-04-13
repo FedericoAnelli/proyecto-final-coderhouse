@@ -1,0 +1,24 @@
+.bgGradient{
+
+    &Footer{
+        background: $gradient_footer !important;
+        height: 10% !important;
+    }
+    &Header{
+    background: $gradient_header !important;
+    }
+
+}
+
+
+.bgCharly
+{
+    background-color: #000000 !important;
+    background-image: url('/images/CharlyFondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+    width: 100vw;
+
+}
