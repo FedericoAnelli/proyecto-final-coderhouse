@@ -339,6 +339,16 @@
   border-radius: 10px;
 }
 
+.bgCharly {
+  background-color: #000000 !important;
+  background-image: url(https://federicoanelli.github.io/proyecto-final-coderhouse/images/CharlyFondo.jpg) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 100vh;
+  width: 100vw;
+}
+
 .bgGradientFooter {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(52.6%, #000000), to(rgba(0, 0, 0, 0))) !important;
   background: linear-gradient(0deg, #000000 52.6%, rgba(0, 0, 0, 0) 100%) !important;
@@ -348,16 +358,6 @@
 .bgGradientHeader {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(52.6%, #000000), to(rgba(0, 0, 0, 0))) !important;
   background: linear-gradient(180deg, #000000 52.6%, rgba(0, 0, 0, 0) 100%) !important;
-}
-
-.bgCharly {
-  background-color: #000000 !important;
-  background-image: url(https://federicoanelli.github.io/proyecto-final-coderhouse/images/CharlyFondo.jpg) !important;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  height: 100vh;
-  width: 100vw;
 }
 
 .masonry-with-columns {
