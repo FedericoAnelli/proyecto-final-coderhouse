@@ -14,44 +14,32 @@
     .img {
 
         &--horizontal1Espacio{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
+            @extend %flex;
             grid-column: 1 span;
             
         } 
 
         &--horizontal2Espacios{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
+            @extend %flex;
             grid-column: 2 span;
 
         } 
         &--horizontal2EspaciosESP{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
+            @extend %flex;
             grid-column: 2 span;
 
         } 
         &--vertical1Espacio{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
+            @extend %flex;
             grid-row: 1 span;
         } 
         &--vertical2Espacios{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
+            @extend %flex;
             grid-row: 2 span;
             
         } 
         &--vertical2EspaciosESP{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
+            @extend %flex;
             grid-row: 2 span;
             
         } 
