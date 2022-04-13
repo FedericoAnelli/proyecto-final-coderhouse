@@ -288,14 +288,23 @@
 }
 
 .video--Home {
-  height: 75vh;
-  width: 75vw;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  grid-row: 1 span;
+  grid-column: 1 span;
   border-radius: 10px;
 }
 
 @media (max-width: 991px) {
   .video--Home {
-    width: 100 vw;
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    grid-row: 2 span;
+    grid-column: 2 span;
   }
 }
 
