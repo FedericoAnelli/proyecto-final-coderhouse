@@ -352,7 +352,7 @@
 
 .bgCharly {
   background-color: #000000 !important;
-  background-image: "./images/CharlyFondo";
+  background-image: url(./bgCharly/CharlyFondo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
