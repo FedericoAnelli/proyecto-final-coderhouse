@@ -360,6 +360,10 @@
   background: linear-gradient(180deg, #000000 52.6%, rgba(0, 0, 0, 0) 100%) !important;
 }
 
+.bgBlack {
+  background-color: black !important;
+}
+
 .masonry-with-columns {
   display: -ms-grid;
   display: grid;
