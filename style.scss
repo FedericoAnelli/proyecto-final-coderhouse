@@ -73,14 +73,14 @@ $gradient_footer: linear-gradient(0deg, #000000 52.6%, rgba(0, 0, 0, 0) 100%);
         }
         &VideoCharly{
              animation-name: animacionMainVideo;
-             animation-duration: 2s;
+             animation-duration: 4s;
              animation-timing-function: ease;
              animation-iteration-count: 1;
         }
         &TwitterFeed
         {
             animation-name: animacionTwitterFeed;
-            animation-duration: 2s;
+            animation-duration: 4s;
             animation-timing-function: ease;
             animation-iteration-count: 1;
         } 
@@ -226,14 +226,27 @@ $gradient_footer: linear-gradient(0deg, #000000 52.6%, rgba(0, 0, 0, 0) 100%);
 @keyframes animacionMainVideo {
 
     0%{
-        width: 0%;
+        opacity: 0;
     }
 
     100%{
-        width: 100%;
+        opacity: 100%;
     }
 
 }
+
+@keyframes animacionTwitterFeed {
+
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100%;
+    }
+
+}
+
 
 @keyframes aparicionTexto {
 

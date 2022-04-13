@@ -69,8 +69,8 @@
 .animationVideoCharly {
   -webkit-animation-name: animacionMainVideo;
           animation-name: animacionMainVideo;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
   -webkit-animation-timing-function: ease;
           animation-timing-function: ease;
   -webkit-animation-iteration-count: 1;
@@ -80,8 +80,8 @@
 .animationTwitterFeed {
   -webkit-animation-name: animacionTwitterFeed;
           animation-name: animacionTwitterFeed;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
   -webkit-animation-timing-function: ease;
           animation-timing-function: ease;
   -webkit-animation-iteration-count: 1;
@@ -255,19 +255,37 @@
 
 @-webkit-keyframes animacionMainVideo {
   0% {
-    width: 0%;
+    opacity: 0;
   }
   100% {
-    width: 100%;
+    opacity: 100%;
   }
 }
 
 @keyframes animacionMainVideo {
   0% {
-    width: 0%;
+    opacity: 0;
   }
   100% {
-    width: 100%;
+    opacity: 100%;
+  }
+}
+
+@-webkit-keyframes animacionTwitterFeed {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes animacionTwitterFeed {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
   }
 }
 
