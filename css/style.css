@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.img--horizontal1Espacio, .img--horizontal2Espacios, .img--horizontal2EspaciosESP, .img--vertical1Espacio, .img--vertical2Espacios, .img--vertical2EspaciosESP {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .animationNavBar {
   -webkit-animation-name: animacionHeader;
           animation-name: animacionHeader;
@@ -292,20 +299,9 @@
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  grid-row: 1 span;
-  grid-column: 1 span;
+  grid-row: 2 span;
+  grid-column: 2 span;
   border-radius: 10px;
-}
-
-@media (max-width: 991px) {
-  .video--Home {
-    height: 100%;
-    width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    grid-row: 2 span;
-    grid-column: 2 span;
-  }
 }
 
 .video--SeccionVideos {
@@ -394,56 +390,46 @@
 }
 
 .img--horizontal1Espacio {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
   grid-column: 1 span;
 }
 
 .img--horizontal2Espacios {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
   grid-column: 2 span;
 }
 
 .img--horizontal2EspaciosESP {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
   grid-column: 2 span;
 }
 
 .img--vertical1Espacio {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
   grid-row: 1 span;
 }
 
 .img--vertical2Espacios {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
   grid-row: 2 span;
 }
 
 .img--vertical2EspaciosESP {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
   grid-row: 2 span;
 }
 
 * {
   padding: 0 !important;
   border: 0 !important;
+}
+
+.masonryIndex {
+  display: -ms-grid;
+  display: grid;
+  background-color: #000000;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 50vh;
+  grid-row-gap: 0.25%;
+  grid-column-gap: 0.5%;
+  padding-left: 1% !important;
+  padding-right: 1% !important;
+  padding-bottom: 1% !important;
 }
 
 .videoIndexAncho {
@@ -539,6 +525,19 @@ body {
 }
 
 @media (max-width: 991px) {
+  .masonryIndex {
+    display: -ms-grid;
+    display: grid;
+    background-color: #000000;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 50vh;
+    grid-row-gap: 0.25%;
+    grid-column-gap: 0.5%;
+    padding-left: 1% !important;
+    padding-right: 1% !important;
+    padding-bottom: 1% !important;
+  }
   .stylingNavBarItems {
     margin-right: 15px !important;
     font-size: 24px;
@@ -556,7 +555,6 @@ body {
     padding-left: 1% !important;
     padding-right: 1% !important;
     padding-bottom: 1% !important;
-    overflow: hidden;
   }
   .img--horizontal1Espacio {
     height: 100%;

@@ -1,3 +1,27 @@
 
 $gradient_header: linear-gradient(180deg, #000000 52.6%, rgba(0, 0, 0, 0) 100%);
 $gradient_footer: linear-gradient(0deg, #000000 52.6%, rgba(0, 0, 0, 0) 100%);
+
+@mixin templateMasonry ($numeroColumnas){
+
+    display: grid;
+    background-color: #000000;
+    grid-template-columns: repeat($numeroColumnas, 1fr);
+    grid-auto-rows: 50vh;
+    grid-row-gap: 0.25%;
+    grid-column-gap: 0.5%;
+    padding-left: 1% !important;
+    padding-right: 1% !important;
+    padding-bottom: 1% !important;
+    
+}
+
+@mixin animacionesDuracion ($nombreAnimacion, $duracionAnimacion){
+
+    animation-name: $nombreAnimacion;
+    animation-duration: $duracionAnimacion;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    
+}
+

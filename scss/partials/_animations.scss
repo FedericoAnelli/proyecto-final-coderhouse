@@ -3,31 +3,19 @@
 
         &NavBar
         {
-            animation-name: animacionHeader;
-            animation-duration: 2s;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
+            @include animacionesDuracion(animacionHeader, 2s);
         } 
         &Footer
         {
-            animation-name: animacionFooter;
-            animation-duration: 2s;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
+            @include animacionesDuracion(animacionFooter, 2s);
         }
         &VideoCharly
         {
-             animation-name: animacionMainVideo;
-             animation-duration: 4s;
-             animation-timing-function: ease;
-             animation-iteration-count: 1;
+            @include animacionesDuracion(animacionMainVideo, 4s);
         }
         &TwitterFeed
         {
-            animation-name: animacionTwitterFeed;
-            animation-duration: 4s;
-            animation-timing-function: ease;
-            animation-iteration-count: 1;
+            @include animacionesDuracion(animacionTwitterFeed, 4s);
         } 
 
 

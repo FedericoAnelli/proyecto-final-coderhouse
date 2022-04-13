@@ -1,5 +1,10 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import "./partials/extend";
 @import "./partials/variables";
+@import "./partials/mapas";
+
 @import "./partials/animations";
 @import "./partials/header";
 @import "./partials/customizations";
@@ -7,8 +12,6 @@
 @import "./partials/flexBiografia";
 @import "./partials/backgrounds";
 @import "./partials/fotosMasonry";
-@import "./partials/mapas";
-@import "./partials/extend";
 
 *{
 
@@ -17,6 +20,9 @@
     
 }
 
+.masonryIndex{
+    @include templateMasonry(3);
+}
 
 .videoIndexAncho{
     width: 75vw;
