@@ -33,7 +33,8 @@
     &--SeccionVideos
     {
         height: 60vh !important;
-        width: 100% !important;
+        width: 80% !important;
+        
     }
 
 }
@@ -42,9 +43,11 @@
 {
 
 display: flex !important;
-
+overflow: scroll !important;
 
 }
+
+
 
 .customFlexColumn{
 
@@ -53,6 +56,8 @@ display: flex !important;
     flex-direction: row !important;
     justify-content: center;
     column-gap: 2% !important;
+    background-color: black !important;
+    margin: 0 !important;
 
 }
 
