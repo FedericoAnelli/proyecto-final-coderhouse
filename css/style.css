@@ -437,15 +437,8 @@
 }
 
 .video--SeccionVideos {
-  height: 75vh !important;
-  width: 75vw !important;
-  border-radius: 10px;
-}
-
-@media (max-width: 991px) {
-  .video--SeccionVideos {
-    grid-column: 4 span !important;
-  }
+  height: 60vh !important;
+  width: 100% !important;
 }
 
 .customDfLex {
@@ -454,40 +447,24 @@
   display: flex !important;
 }
 
-@media (max-width: 991px) {
-  .customDfLex {
-    grid-auto-columns: 1fr 1fr 1fr 1fr;
-  }
-}
-
 .customFlexColumn {
-  -webkit-box-orient: vertical !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal !important;
   -webkit-box-direction: normal !important;
-      -ms-flex-direction: column !important;
-          flex-direction: column !important;
-}
-
-@media (max-width: 991px) {
-  .customFlexColumn {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal !important;
-    -webkit-box-direction: normal !important;
-        -ms-flex-direction: row !important;
-            flex-direction: row !important;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 2% !important;
+          column-gap: 2% !important;
 }
 
 .tabContentExtended {
   display: -ms-grid !important;
   display: grid !important;
-  -webkit-box-pack: center !important;
-      -ms-flex-pack: center !important;
-          justify-content: center !important;
   -ms-flex-line-pack: center !important;
       align-content: center !important;
 }
