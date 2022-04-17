@@ -1,6 +1,6 @@
 .masonry-with-columns {
 
-    @include templateMasonry(3);
+    @include templateMasonry(3, 45vh);
 
     } 
 

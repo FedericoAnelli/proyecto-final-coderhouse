@@ -13,7 +13,7 @@
     background-color: #000000;
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 35vh;
+    grid-auto-rows: 45vh;
     grid-row-gap: 0.25%;
     grid-column-gap: 0.5%;
     padding-left: 1% !important;
@@ -540,7 +540,7 @@
   background-color: #000000;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 35vh;
+  grid-auto-rows: 45vh;
   grid-row-gap: 0.25%;
   grid-column-gap: 0.5%;
   padding-left: 1% !important;
@@ -576,6 +576,20 @@
   margin: 0 !important;
   padding: 0 !important;
   border: 0 !important;
+}
+
+.masonryVideos {
+  display: -ms-grid;
+  display: grid;
+  background-color: #000000;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 35vh;
+  grid-row-gap: 0.25%;
+  grid-column-gap: 0.5%;
+  padding-left: 1% !important;
+  padding-right: 1% !important;
+  padding-bottom: 1% !important;
 }
 
 .masonryIndex {
@@ -633,7 +647,7 @@ body {
     background-color: #000000;
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 35vh;
+    grid-auto-rows: 45vh;
     grid-row-gap: 0.25%;
     grid-column-gap: 0.5%;
     padding-left: 1% !important;

@@ -3,7 +3,7 @@
 
     .masonry-with-columns {
 
-        @include templateMasonry(2);
+        @include templateMasonry(2, 45vh);
     
         } 
     
@@ -64,7 +64,7 @@
 
     .masonryIndex {
 
-        @include templateMasonry(1);
+        @include templateMasonry(1, 35vh);
     
         } 
 
@@ -78,7 +78,7 @@
 
     .masonry-with-columns {
 
-        @include templateMasonry(1);
+        @include templateMasonry(1, 35vh);
     
         } 
 

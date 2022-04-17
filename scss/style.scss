@@ -20,8 +20,12 @@
     
 }
 
+.masonryVideos{
+    @include templateMasonry(2, 35vh);
+}
+
 .masonryIndex{
-    @include templateMasonry(3);
+    @include templateMasonry(3, 35vh);
 }
 
 .videoIndexAncho{
