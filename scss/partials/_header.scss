@@ -9,65 +9,44 @@
     &--Home{
         margin-right: 15px !important;
         font-size: 24px;
-        animation-name: aparicionTexto;
-        animation-duration: 4s;
-        animation-timing-function: ease;
-        animation-iteration-count: 1;
+        @include animacionesDuracion(aparicionTexto, 2s);
 
 
     }
     &--Biografia{
         margin-right: 15px !important;
         font-size: 24px;
-        animation-name: aparicionTexto;
-        animation-duration: 5s;
-        animation-timing-function: ease;
-        animation-iteration-count: 1;
+        @include animacionesDuracion(aparicionTexto, 2.5s);
         
     }
     &--Fotos{
         margin-right: 15px !important;
         font-size: 24px;
-        animation-name: aparicionTexto;
-        animation-duration: 6s;
-        animation-timing-function: ease;
-        animation-iteration-count: 1;
+        @include animacionesDuracion(aparicionTexto, 3s);
         
     }
     &--Videos{
         margin-right: 15px !important;
         font-size: 24px;
-        animation-name: aparicionTexto;
-        animation-duration: 7s;
-        animation-timing-function: ease;
-        animation-iteration-count: 1;
+        @include animacionesDuracion(aparicionTexto, 3.5s);
         
     }
     &--Podcast{
         margin-right: 15px !important;
         font-size: 24px;
-        animation-name: aparicionTexto;
-        animation-duration: 8s;
-        animation-timing-function: ease;
-        animation-iteration-count: 1;
+        @include animacionesDuracion(aparicionTexto, 4s);
         
     }
     &--Playlist{
         margin-right: 15px !important;
         font-size: 24px;
-        animation-name: aparicionTexto;
-        animation-duration: 9s;
-        animation-timing-function: ease;
-        animation-iteration-count: 1;
+        @include animacionesDuracion(aparicionTexto, 4.5s);
         
     }
     &--Contacto{
         margin-right: 15px !important;
         font-size: 24px;
-        animation-name: aparicionTexto;
-        animation-duration: 10s;
-        animation-timing-function: ease;
-        animation-iteration-count: 1;
+        @include animacionesDuracion(aparicionTexto, 5s);
         
     }
 
