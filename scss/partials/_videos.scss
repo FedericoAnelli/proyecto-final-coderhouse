@@ -32,10 +32,42 @@
     }
     &--SeccionVideos
     {
-        height: 50vh;
-        width: 75vw;
+        height: 75vh !important;
+        width: 75vw !important;
+
+        @media (max-width: 991px) {
+            grid-column: 4 span !important;
+        }
         border-radius: 10px;
     }
 
 }
 
+.customDfLex
+{
+
+display: flex !important;
+
+    @media (max-width: 991px) {
+        grid-auto-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.customFlexColumn{
+
+    flex-direction: column !important;
+    
+    @media (max-width: 991px) {
+        display: flex;
+        flex-direction: row !important;
+        justify-content: center;
+    }
+
+}
+
+.tabContentExtended
+{
+    display: grid !important;
+    justify-content: center !important;
+    align-content: center !important;
+}

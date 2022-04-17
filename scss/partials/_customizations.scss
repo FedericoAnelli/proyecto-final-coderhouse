@@ -1,11 +1,10 @@
 .centerContainerFluid{
 
-    height: 75vh !important;
-    width: 75vh !important;
-
-    display: flex;
+display: grid;
+grid-auto-columns: 1fr;
     align-items: center;
     justify-content: center;
+    overflow: scroll !important;
 }
 
 

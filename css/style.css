@@ -357,17 +357,16 @@
 }
 
 .centerContainerFluid {
-  height: 75vh !important;
-  width: 75vh !important;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  overflow: scroll !important;
 }
 
 .size100 {
@@ -438,9 +437,59 @@
 }
 
 .video--SeccionVideos {
-  height: 50vh;
-  width: 75vw;
+  height: 75vh !important;
+  width: 75vw !important;
   border-radius: 10px;
+}
+
+@media (max-width: 991px) {
+  .video--SeccionVideos {
+    grid-column: 4 span !important;
+  }
+}
+
+.customDfLex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+@media (max-width: 991px) {
+  .customDfLex {
+    grid-auto-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.customFlexColumn {
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+}
+
+@media (max-width: 991px) {
+  .customFlexColumn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.tabContentExtended {
+  display: -ms-grid !important;
+  display: grid !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -ms-flex-line-pack: center !important;
+      align-content: center !important;
 }
 
 .padreFlex {
