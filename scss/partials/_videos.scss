@@ -59,6 +59,16 @@ overflow: scroll !important;
     background-color: black !important;
     margin: 0 !important;
 
+
+    @media (max-width:991px) {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        column-gap: 2% !important;
+        background-color: black !important;
+        margin: 0 !important;
+    }
+
 }
 
 .tabContentExtended

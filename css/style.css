@@ -468,6 +468,25 @@ h1 {
   margin: 0 !important;
 }
 
+@media (max-width: 991px) {
+  .customFlexColumn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-column-gap: 2% !important;
+            column-gap: 2% !important;
+    background-color: black !important;
+    margin: 0 !important;
+  }
+}
+
 .tabContentExtended {
   display: -ms-grid !important;
   display: grid !important;
