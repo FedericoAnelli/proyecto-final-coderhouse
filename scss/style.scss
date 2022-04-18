@@ -44,6 +44,14 @@ height: 75vh;
 }
 }
 
+.invisibleOnFullScreen
+{
+    display: none !important;
+    @media (max-width: 991px) {
+        display: block !important;
+    }
+
+}
 
 
 .playerStyle

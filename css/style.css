@@ -628,6 +628,16 @@ h1 {
   }
 }
 
+.invisibleOnFullScreen {
+  display: none !important;
+}
+
+@media (max-width: 991px) {
+  .invisibleOnFullScreen {
+    display: block !important;
+  }
+}
+
 .playerStyle {
   display: -webkit-box;
   display: -ms-flexbox;
