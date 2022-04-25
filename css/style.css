@@ -360,8 +360,6 @@
   width: 100%;
   display: -ms-grid !important;
   display: grid !important;
-  overflow: scroll !important;
-  background-color: transparent !important;
 }
 
 .size100 {
