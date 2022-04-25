@@ -12,6 +12,18 @@
     overflow-x: hidden !important;
     overflow-y: scroll !important;
     grid-row: 2 span !important;
+    overflow: scroll !important;
+
+    @media (max-width: 991px) {
+
+        background-color: black !important;
+        height: 100% !important;
+        overflow-x: hidden !important;
+        overflow-y: scroll !important;
+        grid-row: 2 span !important;
+        overflow: visible !important; 
+        
+    }
 
 }
 
@@ -59,7 +71,12 @@ h1
 {
 
         color: white;
+        font-size: larger !important;
 
+        @media (max-width: 991px) {
+            color: white;
+            font-size: xx-large !important;
+        }
 
 
 }

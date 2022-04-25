@@ -78,3 +78,13 @@ overflow: scroll !important;
 
     
 }
+
+.masonryVideos{
+    @include templateMasonry(2, 35vh);
+}
+
+.videoIndexAncho{
+    width: 75vw;
+    height: 75vh;
+
+}

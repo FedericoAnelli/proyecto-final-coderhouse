@@ -17,22 +17,16 @@
     margin: 0 !important;
     padding: 0 !important;
     border: 0 !important;
-    
+    background-color: black;
 }
 
-.masonryVideos{
-    @include templateMasonry(2, 35vh);
-}
+
 
 .masonryIndex{
     @include templateMasonry(3, 35vh);
 }
 
-.videoIndexAncho{
-    width: 75vw;
-    height: 75vh;
 
-}
 
 .twitterIndexFino{
 
