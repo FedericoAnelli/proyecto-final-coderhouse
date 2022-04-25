@@ -364,8 +364,6 @@
 
 .size100 {
   height: 100% !important;
-  overflow-x: hidden !important;
-  overflow-y: scroll !important;
   grid-row: 2 span !important;
 }
 
@@ -373,8 +371,6 @@
   .size100 {
     background-color: black !important;
     height: 100% !important;
-    overflow-x: hidden !important;
-    overflow-y: scroll !important;
     grid-row: 2 span !important;
     overflow: visible !important;
   }
