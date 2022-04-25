@@ -365,6 +365,8 @@
 .size100 {
   height: 100% !important;
   grid-row: 2 span !important;
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
 }
 
 @media (max-width: 991px) {
@@ -633,7 +635,15 @@ h1 {
   margin: 0 !important;
   padding: 0 !important;
   border: 0 !important;
-  background-color: black;
+}
+
+@media (max-width: 991px) {
+  * {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background-color: black;
+  }
 }
 
 .masonryIndex {
