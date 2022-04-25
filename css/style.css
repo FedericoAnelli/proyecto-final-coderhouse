@@ -367,7 +367,6 @@
   overflow-x: hidden !important;
   overflow-y: scroll !important;
   grid-row: 2 span !important;
-  overflow: scroll !important;
 }
 
 @media (max-width: 991px) {
