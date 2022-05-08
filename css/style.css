@@ -260,6 +260,29 @@
   }
 }
 
+.logoSayNoMoreResize {
+  max-height: 50px;
+  max-width: auto;
+  border-radius: 100px;
+}
+
+.ubicacionLogoSNM {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+@media (max-width: 991px) {
+  .ubicacionLogoSNM {
+    display: none;
+  }
+}
+
 .stylingNavBarItems {
   margin-right: 15px !important;
   font-size: 24px;
@@ -344,7 +367,7 @@
 }
 
 .stylingNavBarItems--Contacto {
-  margin-right: 15px !important;
+  margin-right: 45px !important;
   font-size: 24px;
   -webkit-animation-name: aparicionTexto;
           animation-name: aparicionTexto;
@@ -571,7 +594,7 @@ h1 {
 
 .bgCharly {
   background-color: #000000 !important;
-  background-image: url(https://federicoanelli.github.io/proyecto-final-coderhouse/images/CharlyFondo.webp) !important;
+  background-image: url(https://charlygarciacoder.000webhostapp.com/images/CharlyFondo.webp) !important;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
