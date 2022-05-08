@@ -417,7 +417,8 @@
 }
 
 .customRowHeight75 {
-  height: 75vh;
+  margin-top: 5% !important;
+  height: 65vh;
 }
 
 .customRowHeight10 {
@@ -584,10 +585,10 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: rgba(0, 0, 0, 0.87);
-  left: 5%;
-  right: 5%;
-  padding: 2%;
+  background: black;
+  margin-right: 5% !important;
+  margin-left: 3% !important;
+  margin-top: 3% !important;
   -webkit-box-pack: baseline;
       -ms-flex-pack: baseline;
           justify-content: baseline;
@@ -707,9 +708,27 @@ a {
   border-radius: 12px;
 }
 
-h2 {
+.cajaContactUs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: black;
+  margin-right: 5% !important;
+  margin-left: 3% !important;
+  border-radius: 12px;
   margin-left: 3% !important;
   font-size: x-large;
+}
+
+@media (max-width: 991px) {
+  .cajaContactUs {
+    display: none;
+  }
 }
 
 .parrafoIndex {

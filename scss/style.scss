@@ -44,11 +44,25 @@ a{
     border-radius: 12px;
 }
 
-h2{
+.cajaContactUs{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    margin-right: 5% !important;
+    margin-left: 3% !important;
+    border-radius: 12px;
     margin-left: 3% !important;
     font-size: x-large;
 
+    @media (max-width:991px) {
+
+        display: none;
+        
+    }
+
 }
+
 
 .parrafoIndex{
     margin-left: 3% !important;

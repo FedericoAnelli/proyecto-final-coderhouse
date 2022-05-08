@@ -19,10 +19,12 @@
     position: absolute;
     height: 75vh;
     display: flex;
-    background: rgba(0, 0, 0, 0.87);
-    left: 5%;
-    right: 5%;
-    padding: 2%;
+    background: rgb(0, 0, 0);
+
+    margin-right: 5% !important;
+    margin-left: 3% !important;
+    margin-top: 3% !important;
+
     justify-content: baseline;
     flex-direction: column;
     overflow-x: hidden !important;
