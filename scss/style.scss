@@ -30,10 +30,30 @@
 
 
 .masonryIndex{
-    @include templateMasonry(3, 35vh);
+    @include templateMasonry(3, 28vh);
 }
 
+a{
+    color: white;
+}
 
+.cajaTextosHome{
+    background-color: black;
+    margin-right: 5% !important;
+    margin-left: 3% !important;
+    border-radius: 12px;
+}
+
+h2{
+    margin-left: 3% !important;
+    font-size: x-large;
+
+}
+
+.parrafoIndex{
+    margin-left: 3% !important;
+    margin-top: 2% !important;
+}
 
 .twitterIndexFino{
 

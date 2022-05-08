@@ -13,7 +13,7 @@
 
     &--Home{
 
-        height: map-get($fullSize, width);
+        height: map-get($fullSize, height);
         width: map-get($fullSize, width);
         object-fit: cover;
         grid-row:  2 span;
